@@ -1,0 +1,5 @@
+{
+  "name": "Copy of TruthLens",
+  "description": "An advanced web application that performs deep semantic and factual verification on any text input, analyzing it for factual accuracy, bias, and potential AI authorship using the Gemini API.",
+  "requestFramePermissions": []
+}
