@@ -1,4 +1,3 @@
-
 export interface Factuality {
   score: number; // 0-100
   explanation: string;
@@ -28,6 +27,7 @@ export interface Summary {
 export interface GroundingSource {
     uri: string;
     title: string;
+    credibility: 'High' | 'Medium' | 'Low' | 'Unknown';
 }
 
 export interface AnalysisResult {
